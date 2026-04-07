@@ -85,7 +85,7 @@ Use WebFetch for all API calls — no scripts needed.
 ### 3.1 Submit task
 
 ```
-POST http://local.pixpi.cc:8080/open-api/image/tasks
+POST https://www.pixpi.cc/open-api/image/tasks
 Authorization: Bearer {apiKey}
 Content-Type: application/json
 
@@ -110,7 +110,7 @@ Response handling:
 Poll every 10 seconds, up to 18 times (3-minute timeout):
 
 ```
-GET http://local.pixpi.cc:8080/open-api/image/tasks/{taskId}
+GET https://www.pixpi.cc/open-api/image/tasks/{taskId}
 Authorization: Bearer {apiKey}
 ```
 
